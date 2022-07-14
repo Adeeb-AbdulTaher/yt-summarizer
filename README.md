@@ -2,19 +2,19 @@
 
 ## Problem Statement
 
-We spend a considerable amount of time on YouTube. Which is a primary source of knowledge because it contains lecture videos from primer institutes. We watch a hour long video and try to grab the important ideas from it. What if we can let a system do it. Understand the important ideas from the video and summarize it in a way which will allow you to look back and revisit the key ideas without watching the video all over again
+The Covid Pandemic has changed many of our ways including how newer generations are getting educated; watching hour long recorded lecture videos, trying their best to grasp concepts but failing to do so efficiently. 
 
 ## Objective
 
-Our project uses Advanced NLP techniques to extract the summary of the video. Its always difficult to run these codes for a common user. What if we have a GUI which allows us to just paste in the link of the YouTube video and the application does all the hard lifting for us and saves the summary in the text format in the desired location.
+Our time efficient solution revolves around AI technologies like Natural Language Processing and Machine Learning by summarizing the video content into a text passage to greatly improve the learning experience of the user whilst consuming their least possible time, bringing all of this to an easy to use user-friendly interface.
 
 ## Process
 
-- Extract the closed caption in English from the user given YouTube link
-- Clean the Data by removing all the time stamps and make it a single document
-- Run the NLP text summarization algorithm on the given document
-- Develop a GUI to link the process
-- Location to save the summary in
+* Get the English Trasncript from the user given YouTube link
+* Remove all the time stamps and clean it and store in one text document
+* Run the NLP text summarization algorithm on the given document
+* Set the location for the summary to be saved in
+* Develop a GUI for the same
 
 ## Working
 ![GUI](gui.gif)
@@ -22,5 +22,5 @@ Our project uses Advanced NLP techniques to extract the summary of the video. It
 
 ## Future Work
 
-- Extend the summarization to Coursera and other education websites
-- On Paste of the entire playlist extract all, process all and save each of them in separate files
+- Allow support for Udemy and other such educational websites
+- Process entire playists and save in separate files
