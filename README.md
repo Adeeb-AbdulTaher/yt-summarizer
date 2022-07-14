@@ -17,7 +17,7 @@ Our time efficient solution revolves around AI technologies like Natural Languag
 * Develop a GUI for the same
 
 ## Working
-![GUI](gui.gif)
+![GUI](GUI.png)
 ![Result](result.gif)
 
 ## Future Work
